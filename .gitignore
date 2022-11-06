@@ -1,0 +1,8 @@
+pretrain/textcorpus
+pretrain/data_cache
+pretrain/models
+vocab/idx_pmi_dict.json
+.ipynb_checkpoints
+*/.ipynb_checkpoints
+__pycache__
+*/__pycache__
