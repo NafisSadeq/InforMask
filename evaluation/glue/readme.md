@@ -1,4 +1,4 @@
-# GLUE evaluation Setup
+## GLUE evaluation Setup
 
 The evaluation on GLUE benchmark is done using the transformers library. The library need to be installed from source.
 
@@ -9,7 +9,7 @@ pip install .
 pip install -r ./examples/requirements.txt
 ```
 
-# Running 
+## Running 
 
 ```
 cd examples/pytorch/text-classification/
