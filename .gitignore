@@ -6,3 +6,5 @@ vocab/idx_pmi_dict.json
 */.ipynb_checkpoints
 __pycache__
 */__pycache__
+evaluation/*/results
+vocab/vocab_common.json
