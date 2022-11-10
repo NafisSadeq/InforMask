@@ -5,7 +5,7 @@ Code for EMNLP 2022 paper: [InforMask: Unsupervised Informative Masking for Lang
 
 You can directly download the use the model from Hugging Face repository [model link](https://huggingface.co/nsadeq/InformBERT). The evaluation code in this repository will also directly download the model from Hugging Face. Example usage is shown below:
 
-```
+```python
 from transformers import BertTokenizer, AutoModel
 tokenizer = BertTokenizer.from_pretrained("nsadeq/InformBERT")
 model = AutoModel.from_pretrained("nsadeq/InformBERT")
@@ -42,16 +42,12 @@ We perform evaluation on LAMA, SQuAD, and GLUE. Check in the corresponding folde
 ## Citation
 If you use the proposed approach, please cite the following work.
 
-```
-@misc{https://doi.org/10.48550/arxiv.2210.11771,
-  doi = {10.48550/ARXIV.2210.11771},
-  url = {https://arxiv.org/abs/2210.11771},
-  author = {Sadeq, Nafis and Xu, Canwen and McAuley, Julian},
-  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences}, 
-  title = {InforMask: Unsupervised Informative Masking for Language Model Pretraining},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+```bibtex
+@inproceedings{sadeq2022informask,
+    title={InforMask: Unsupervised Informative Masking for Language Model Pretraining},
+    author={Nafis Sadeq and Canwen Xu and Julian McAuley},
+    booktitle={{EMNLP}},
+    year={2022}
 }
 ```
 
